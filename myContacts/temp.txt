@@ -1,0 +1,4 @@
+users.forEach( user => {
+  user.name을 화면에 표시
+  user.email을 화면에 표시
+})
