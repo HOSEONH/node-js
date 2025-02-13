@@ -9,8 +9,8 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const jwtSecret = process.env.JWT_SECRET;
 
-/** Check Login
- * 
+/** 
+ * Check Login
  */
 const checkLogin = (req, res, next) => {
   const token = req.cookies.token;
